@@ -1,0 +1,17 @@
+.content-container {
+    min-height: 80vh;
+}
+
+.right-arrow::after {
+    content: '';
+    margin-top: -7px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 12px solid #00bcd4;
+    height: 0;
+    width: 0;
+    float: right;
+}
+.modal-backdrop {
+    background-color: rgba(0,0,0,0.5) !important;
+}
